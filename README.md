@@ -1,16 +1,18 @@
-# gettest
+# getTest
 
-A new Flutter project.
+This is a repo where I have code for testing the wonderful [Getx package](https://pub.dev/packages/get)
 
-## Getting Started
+The lib folder has the code and we are testing some features of the GetPackage along with clear separation of the UI from logic
 
-This project is a starting point for a Flutter application.
+1. A text field with subscriptions that are listened to and the rebuild of widget
+2. A dialog management from the controller.
+3. Navigation using Get
+4. Theme change without context
+5. Translations with arugments (via string extensions using again just Get)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+I highly recommend using the VS code extension [GetX snippets](https://marketplace.visualstudio.com/items?itemName=get-snippets.get-snippets#classes)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+this will significantly decrease your time to build beautiful flutter apps.
+
+Happy flutterring!!!
